@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+            <ion-back-button defaultHref="list"></ion-back-button>
+    </ion-buttons>
+    <ion-title>page profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-img style="align-self: center" src={{movie.picture}} ></ion-img>
+    <ion-item padding>
+        <ion-text slot="end">{{movie.note}}</ion-text>
+    </ion-item>
+</ion-content>
